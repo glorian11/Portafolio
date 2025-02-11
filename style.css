@@ -347,6 +347,14 @@ h2 {
     text-align: center;
 }
 
+.github-profile h3,
+.email-profile h3,
+.github-profile p,
+.email-profile p {
+    color: var(--text-color);
+    margin-bottom: 1rem;
+}
+
 .github-link,
 .email-link {
     display: flex;
@@ -357,15 +365,36 @@ h2 {
     padding: 1rem 2rem;
     border-radius: 0.5rem;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    color: var(--white) !important;
 }
 
 .github-link {
     background: #24292e;
+    color: #ffffff !important;
 }
 
 .email-link {
     background: var(--primary-color);
+    color: #ffffff !important;
+}
+
+.github-info,
+.email-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.github-username,
+.email-text {
+    color: #ffffff;
+    font-size: 0.9rem;
+}
+
+.github-text,
+.email-cta {
+    color: #ffffff;
+    font-size: 0.8rem;
+    opacity: 0.8;
 }
 
 .github-link:hover,
