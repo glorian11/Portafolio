@@ -510,3 +510,19 @@ footer {
     background: var(--primary-color);
     color: var(--white);
 }
+
+.lang-btn {
+    background: none;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    transition: transform 0.3s ease;
+    color: var(--text-color);
+}
+
+.lang-btn:hover {
+    transform: scale(1.1);
+    background-color: var(--gray-200);
+}
